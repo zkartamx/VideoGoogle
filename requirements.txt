@@ -1,0 +1,28 @@
+# Dependencias básicas (Python 3.11 en macOS)
+numpy
+opencv-python
+scikit-learn
+ffmpeg-python
+tqdm
+
+
+
+# Modelo de embeddings de texto
+sentence-transformers
+
+# Dependencias para JAX/Flax (CPU)
+jax==0.4.25
+jax-metal
+jaxlib==0.4.25
+flax==0.8.0
+
+# Dependencias de VideoPrism (el paquete principal se instala por separado)
+absl-py
+einops
+einshape
+sentencepiece
+tensorflow-macos==2.15.0 # Versión compatible con la arquitectura de Apple Silicon
+
+# Interfaz de Usuario
+gradio==5.34.2
+matplotlib~=3.9.1
