@@ -1,3 +1,5 @@
 {
-  "device": "cpu"
+  "device": "cpu",
+  "analysis_level": "Balanced (every 2 seconds)",
+  "frames_per_clip": 8
 }
